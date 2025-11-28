@@ -34,4 +34,4 @@ eureka:
 
 security:
   jwt:
-    public-key-location: file:/config/keys/public_key.pem
+    public-key-location: classpath:public_key.pem
